@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build files
+build/
+dist/
+*/build/
+*/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Docker
+.docker/
+
+# Kubernetes
+.kube/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
